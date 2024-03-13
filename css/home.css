@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*VARIABLES*/
+:root {
+    --BACKGROUND-COLOR:  #662984;
+}
+
+/*FONT STYLES*/
+html {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    background: #ffffff url(../img/crest.png) center center/contain no-repeat;
+    background-color: var(--BACKGROUND-COLOR);
+}
+
+.home-btn {
+    font-size: 2vh;
+    margin: 0;
+    width: min(100px);
+    height: min(50px);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    background-color: #ffffff
+}
